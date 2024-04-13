@@ -27,6 +27,7 @@ cp "${BINARIES_DIR}/rk3326-odroid-go3.dtb"      "${BATOCERA_BINARIES_DIR}/boot/b
 cp "${BINARIES_DIR}/rk3326-gameforce-chi.dtb"   "${BATOCERA_BINARIES_DIR}/boot/boot/"       || exit 1
 cp "${BINARIES_DIR}/rk3326-anbernic-rg351m.dtb" "${BATOCERA_BINARIES_DIR}/boot/boot/"       || exit 1
 cp "${BINARIES_DIR}/rk3326-anbernic-rg351v.dtb" "${BATOCERA_BINARIES_DIR}/boot/boot/"       || exit 1
+cp "${BINARIES_DIR}/rk3326-gameconsole-r36s.dtb" "${BATOCERA_BINARIES_DIR}/boot/boot/"      || exit 1
 
 cp "${BOARD_DIR}/boot/boot.ini"                 "${BATOCERA_BINARIES_DIR}/boot/"            || exit 1
 
